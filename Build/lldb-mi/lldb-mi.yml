@@ -52,7 +52,7 @@ jobs:
           exit 1
         fi
 
-        log_and_exec_cmd ninja
+        log_and_exec_cmd "ninja -j8"
         if [[ $? -ne 0 ]]
         then
           echo "##[error] ninja failed"
