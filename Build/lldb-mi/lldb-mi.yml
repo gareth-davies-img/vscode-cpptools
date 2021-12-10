@@ -11,7 +11,7 @@ variables:
 
 jobs:
 - job: LLDB_MI
-  timeoutInMinutes: 360
+  timeoutInMinutes: 0
   pool:
     vmImage: 'macOS-latest'
   steps:
